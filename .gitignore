@@ -1,0 +1,59 @@
+# Python-specific
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment and packages
+env/
+venv/
+ENV/
+.venv/
+.pyenv/
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Distribution / packaging
+*.egg-info/
+*.egg
+dist/
+build/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+wheels/
+share/python-wheels/
+
+# Byte-compiled / optimized / DLL files
+*.pyc
+*.pyo
+*.pyd
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Pyre type checker
+.pyre/
